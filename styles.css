@@ -10,7 +10,6 @@ body{
     background-color: #14181c;
     color: #9ab;
     line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
 }
 
 /*MAIN HEADER*/
@@ -274,18 +273,6 @@ body{
 .main-footer p{
     color: #567;
     font-size: 0.8rem;
-}
-
-/*SCROLLBAR STYLES*/
-.media-grid::-webkit-scrollbar{
-    height: 8px;
-}
-.media-grid::-webkit-scrollbar-track{
-    background: #14181c;
-}
-.media-grid::-webkit-scrollbar-thumb{
-    background: #456;
-    border-radius: 4px;
 }
 
 /*BROWSE PAGE STYLES*/
